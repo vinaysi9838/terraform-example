@@ -2,7 +2,11 @@ terraform {
   cloud {
     organization = "skillark98"
     workspaces {
-      name = "first"
+      name = "terraform-example"
     }
   }
+}
+provider "aws" {
+  region     = "ap-south-1"
+ 
 }
